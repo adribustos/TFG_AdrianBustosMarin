@@ -3,6 +3,12 @@ Trabajo Fin de Grado. Herramienta de soporte a la captura y tratamiento de evide
 
 AFA-> Analisis Forense Android
 
-Para poder ejecutar este programa se ha de isntalar python y PyQt5.
+Para poder ejecutar este programa se ha de isntalar previamente **python y PyQt5**.
+
++Nota: Para instalar PyQt5 basta con instalar primero python y luego escribir el siguiente comando:
+
+  *pip install PyQt5*
+
 Una vez instalados, solo hay que abrir una terminal, colocarse en el directorio donde se encuentre el programa y ejecutar el siguiente comando:
-  python AnalyDroid.py
+
+  *python AnalyDroid.py*
