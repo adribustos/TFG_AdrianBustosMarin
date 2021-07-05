@@ -13,4 +13,4 @@ Una vez instalados, solo hay que abrir una terminal, colocarse en el directorio 
 
   *python AnalyDroid.py*
 
-En la carpeta Informes, se guardarán todos los informes que se creen usando esta herramienta. Hay un informe ya creado, con nombre Prueba, para que se pueda bservar el resultado.
+En la carpeta Informes, se guardarán todos los informes que se creen usando esta herramienta. Hay un informe ya creado, con nombre *Informe_Pericial_Prueba*, para que se pueda bservar el resultado. Dicho archivo se puede abrir con block de notas.
