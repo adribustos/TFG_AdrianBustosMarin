@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AFA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 17, 44);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_titulo">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;PROCESAMIENTO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>771</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(213, 213, 213);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>771</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;A continuación, &lt;span style=&quot; font-weight:600;&quot;&gt;abrimos una terminal &lt;/span&gt;en el ordenador.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Comenzaremos por comprobar que todos los pasos están correctos. &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Si todo está correcto, con el comando &lt;span style=&quot; font-style:italic;&quot;&gt;&amp;lt;adb devices&amp;gt;&lt;/span&gt; podermos ver lo siguente:&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>260</y>
+       <width>771</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Como se puede observar, obtenemos directamente el n&lt;span style=&quot; font-weight:600;&quot;&gt;úmero de serie&lt;/span&gt; del dispositivo y,&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;a su lado, si todo está correcto, nos aparece &lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;device&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>130</y>
+       <width>421</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>iconos/Paso1_opt.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="bt_siguiente">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>500</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(10, 191, 83);</string>
+    </property>
+    <property name="text">
+     <string>Siguiente</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_atras">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>500</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(10, 191, 83);</string>
+    </property>
+    <property name="text">
+     <string>Atrás</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(213, 213, 213);</string>
+   </property>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda...</string>
+    </property>
+    <addaction name="actionno_me_sale_ning_n_dispositivo"/>
+    <addaction name="actionen_lugar_de_device_me_aparece_unauthorized"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <action name="actionno_me_sale_ning_n_dispositivo">
+   <property name="text">
+    <string>no me sale ningún dispositivo</string>
+   </property>
+  </action>
+  <action name="actionen_lugar_de_device_me_aparece_unauthorized">
+   <property name="text">
+    <string>en lugar de device me aparece unauthorized</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ImagenesTutorial.qrc"/>
+  <include location="Paso0_DepuracionUSB.qrc"/>
+ </resources>
+ <connections/>
+</ui>

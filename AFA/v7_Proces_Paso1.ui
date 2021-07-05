@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AFA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 17, 44);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>771</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(213, 213, 213);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>731</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Una vez que el móvil permite la depuración USB, podremos conectar el teléfono mediante un cable &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;que &lt;span style=&quot; font-weight:600;&quot;&gt;permita el traspaso de datos.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Para poder acceder a los datos, activaremos la &lt;span style=&quot; font-weight:600;&quot;&gt;opcion de transeferir archivos&lt;/span&gt; y debemos &lt;span style=&quot; font-weight:600;&quot;&gt;dar permiso&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;al dispositivo móvil para que nuestro ordenador &lt;span style=&quot; font-weight:600;&quot;&gt;utilice la depuración USB&lt;/span&gt;. &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Aparecerá un mensaje parecido al siguiente, el cual tendremos que aceptar:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>341</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>iconos/PermisoDepuracion.jpeg</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lbl_titulo">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;PROCESAMIENTO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_siguiente">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>510</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(10, 191, 83);</string>
+    </property>
+    <property name="text">
+     <string>Siguiente</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_atras">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>510</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(10, 191, 83);</string>
+    </property>
+    <property name="text">
+     <string>Atrás</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(213, 213, 213);</string>
+   </property>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda...</string>
+    </property>
+    <addaction name="actionNo_me_aparece_ese_aviso"/>
+   </widget>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <action name="actionNo_me_aparece_ese_aviso">
+   <property name="text">
+    <string>No me aparece ese aviso</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Paso0_DepuracionUSB.qrc"/>
+ </resources>
+ <connections/>
+</ui>
