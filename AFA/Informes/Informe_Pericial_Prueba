@@ -1,0 +1,67 @@
+Nombre del Analista:
+  Pedro
+
+Fecha y hora del Análisis:
+  2021-07-05 13:48:47
+
+Nobre del acusado:
+  Juan
+
+NIF del acusado:
+  88888888X
+
+Ubicación:
+  Ciudad REal
+
+Descripción del delito:
+  Descripción del tipo de delito.
+
+Tipo de delito:
+  Nombre del tipo de incidente
+
+Tipo de dato/os a buscar:
+  Lista de los datos que el perito tiene que buscar
+
+Dispositivo incluido en la orden de registro:
+  True
+
+El propietario ha dado su consentimiento para la extracción del dispositivo:
+  True
+
+Los datos que se requieren adquirir se especifican en la orden de registro:
+  True
+
+Rol del propietario del dispositivo:
+  Dispositivo personal
+
+La politica corporativa permite la recopilación de datos y el posterior análisis:
+  True
+
+Lista de datos a recoger:
+  Lista de los datos a buscar por el perito 
+(Fotos, videos, archivos, etc)
+
+Marca del dispositivo:
+  Huawei
+
+Modelo del dispositivo:
+  Psmart
+
+Número de serie del dispositivo:
+  00000000
+
+Color del dispositivo:
+  Negro
+
+Pantalla del dispositivo:
+  Desbloqueada
+
+Hardware del dispositivo:
+  Lista de componentes Hardware (camara, microfono, etc)
+
+Estado del dispositivo:
+  Estado del dispositivo tal cual se lo encuentra el perito
+
+Tarjetas de memoria del dispositivo:
+  El dispositivo contenía una trarjeta de memoria
+
