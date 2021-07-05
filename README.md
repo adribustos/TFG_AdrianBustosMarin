@@ -12,3 +12,5 @@ Para poder ejecutar este programa se ha de isntalar previamente **python y PyQt5
 Una vez instalados, solo hay que abrir una terminal, colocarse en el directorio donde se encuentre el programa y ejecutar el siguiente comando:
 
   *python AnalyDroid.py*
+
+En la carpeta Informes, se guardarán todos los informes que se creen usando esta herramienta. Hay un informe ya creado, con nombre Prueba, para que se pueda bservar el resultado.
